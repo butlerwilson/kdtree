@@ -1,0 +1,24 @@
+﻿Build started 2015/6/1 16:34:36.
+     1>Project "C:\Users\youngcy\Desktop\毕业设计文档\kdtree-parallel\kdtree-parallel\kdtree-parallel.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\AMD APP SDK\3.0-0-Beta\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt kdtree.cpp main.cpp
+         kdtree.cpp
+         Generating Code...
+     1>c:\users\youngcy\desktop\毕业设计文档\kdtree-parallel\kdtree-parallel\kdtree.cpp(13): warning C4756: overflow in constant arithmetic
+     1>c:\users\youngcy\desktop\毕业设计文档\kdtree-parallel\kdtree-parallel\kdtree.cpp(13): warning C4756: overflow in constant arithmetic
+     1>c:\users\youngcy\desktop\毕业设计文档\kdtree-parallel\kdtree-parallel\kdtree.cpp(198): warning C4756: overflow in constant arithmetic
+     1>c:\users\youngcy\desktop\毕业设计文档\kdtree-parallel\kdtree-parallel\kdtree.cpp(253): warning C4756: overflow in constant arithmetic
+         Compiling...
+         main.cpp
+     1>c:\users\youngcy\desktop\毕业设计文档\kdtree-parallel\kdtree-parallel\main.cpp(27): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\youngcy\Desktop\毕业设计文档\kdtree-parallel\Debug\kdtree-parallel.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\AMD APP SDK\3.0-0-Beta\\lib\x86" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\youngcy\Desktop\毕业设计文档\kdtree-parallel\Debug\kdtree-parallel.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\youngcy\Desktop\毕业设计文档\kdtree-parallel\Debug\kdtree-parallel.lib" /MACHINE:X86 Debug\clParalle.obj
+         Debug\kdtree.obj
+         Debug\main.obj
+         kdtree-parallel.vcxproj -> C:\Users\youngcy\Desktop\毕业设计文档\kdtree-parallel\Debug\kdtree-parallel.exe
+     1>Done Building Project "C:\Users\youngcy\Desktop\毕业设计文档\kdtree-parallel\kdtree-parallel\kdtree-parallel.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.03
